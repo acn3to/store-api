@@ -13,7 +13,7 @@ export class UserController {
   }
 
   @Get()
-  async listUSers() {
+  async listUsers() {
     return this.userRepository.list();
   }
 }
